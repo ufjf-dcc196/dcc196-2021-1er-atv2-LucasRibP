@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,7 +15,8 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="TextView"
+        android:text="Shinji Ikari"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +26,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="The Third Child"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/nome"
         app:layout_constraintStart_toStartOf="@+id/nome"
         app:layout_constraintTop_toBottomOf="@+id/nome" />
@@ -39,12 +41,14 @@
         app:layout_constraintEnd_toEndOf="@+id/titulo"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/titulo"
-        app:layout_constraintTop_toBottomOf="@+id/titulo">
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/descricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Shinji Ikari (碇シンジ[?], &quot;Ikari Shinji&quot;)[1] is the Third Child, the main protagonist of the series and the designated pilot of Evangelion Unit-01. He is the son of Gehirn bioengineer Yui Ikari and NERV Commander (formerly Chief of Gehirn) Gendo Ikari. After his mother's death, he was abandoned by his father and lived for 11 years with his sensei, until he was summoned to Tokyo-3 to pilot Unit-01 against the Angels. He lives initially just with Misato Katsuragi; they are later joined by Asuka Langley Soryu. Shinji has medium-length straight brown hair and grey-blue eyes. Shinji is also very skinny, and often has his shirt tucked in, showing that he is a rather tidy person. When spending time at NERV or out in the city, he wears his uniform which is a white dress shirt, blue t-shirt, dark pants and white rubber shoes, though when in his apartment, he will often wear something more casual. Shinji's plug suit has a very light blue torso, complemented by the rest being a dark blue color with black portions as well.  Shinji initially shows a passive and laid-back personality, inheriting such traits from his relaxed life with his sensei. When he is told to pilot Unit-01, he denies, not wanting to do it. Though Shinji denies it, he yearns for praise, and he eventually begins to pilot Unit-01 to gain the approval and love from his father. He also continually tells himself &quot;I mustn't run away!&quot;,[2] further demonstrating his need to move forward and let go of the past.  Shinji shows a great fear of emotional pain and of being hated or left behind, likely due to his perception of being abandoned in his youth and, subsequently, blaming himself for not being good enough to make his father stick around. In general, Shinji is shown to be introverted and disconnected from physical reality due to having little to no meaningful contact with others. In social party situations, he is shown to be quite uncomfortable, and he often has difficulty controlling his emotions around others due to his hard time letting go of the past. He is shown to the extreme of this, forsaking many lives (even his own) to save one person.  Due to Shinji's high nostalgia and fragile emotional state, he chooses to shut out the world, as evidenced by the headphones he wears rather often, plugged into an SDAT music player. He usually plays tracks 25 (&quot;You Are the Only One&quot;) and 26 (&quot;Blue Legend&quot;), though in episodes 02 and 23, the songs are varied to different background music and vocals.  Through all this, Shinji is also aware of his own faults, has a detailed memory of the past, and generally is outwardly gentle. He is the only one who tries to find a reason to fight the Angels, and sometimes his justification for fleeing from piloting is to avoid hurting others."
+            android:textSize="16sp" />
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
